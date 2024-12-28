@@ -1,0 +1,119 @@
+$background-color: #F7EAEA;
+$white-color: #FFFFFF;
+$red_color: #D9534F;
+
+
+.container{
+    display: flex;
+    background-color: $background-color;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    .form-login{
+        border-radius: 20px;
+        background-color: $white-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        height: 500px;
+        .component-left{
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            display: flex;
+            flex: 1;
+            height: 100%;
+            background-color: $red_color;
+            flex-direction: column;
+            align-items: center;
+            .contain-img{
+                margin-top: 50px;
+                width: 170px;
+                height: 170px;
+                background-color: $white-color;
+                border-radius: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .text{
+                margin-top: 100px;
+                color: $white-color;
+                font-size: x-large;
+            }
+        }
+        .component-right{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            flex: 2;
+            align-items: center;
+            h2{
+                margin-top: 80px;
+                color: $red_color;
+                font-size: xx-large;
+            }
+            .input-group{
+                padding: 20px;
+                display: flex;
+                justify-self: start;
+                margin-top: 10px;
+                border: 1px solid #333;
+                width: 450px;
+                border-radius: 100px;
+                .input-login{
+                    margin-left: 10px;
+                    border: none;
+                    width: 100%;
+                    height: 100%;
+                }
+                .input-login:focus {
+                    outline: none;
+                    border: none;
+                }
+                .icon {
+                    margin-right: 8px;
+                    margin-left: 8px;
+                    img {
+                        width: 15px; 
+                        height: 15px;
+                        fill: #c9a3a3;
+                    }
+                }
+            }
+            .forgot-password{
+                margin-top: 20px;
+                margin-left: 330px;
+            }
+            .buttons{
+                margin-top: 20px;
+                .loginButton{
+                    border-radius: 20px;
+                    width: 215px;
+                    height: 40px;
+                    color: $white-color;
+                    background-color: $red_color;
+                    border: none;
+                    font-size: larger;
+                    cursor: pointer;
+                }
+                .registerButton{
+                    margin-left: 20px;
+                    width: 215px;
+                    height: 40px;
+                    border-radius: 20px;
+                    background-color: $background-color;
+                    border: none;
+                    font-size: larger;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
