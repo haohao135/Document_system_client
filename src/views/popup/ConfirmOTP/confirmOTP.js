@@ -23,7 +23,7 @@ class ConfirmOTP extends React.Component {
                         <div>
                             <p>Vui lòng nhập tài khoản của bạn vào ô bên dưới chúng tôi sẽ gửi mã OTP về tài khoản Email của bạn</p>
                         </div>
-                        <div className="input-group">
+                        <div className="input-group-2">
                             {this.inputRefs.map((ref, index) => (
                                 <SquareConfirmOTP
                                     key={index}

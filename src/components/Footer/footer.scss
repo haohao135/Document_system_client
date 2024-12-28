@@ -1,0 +1,58 @@
+$background-color: #343435;
+
+.footer-container {
+    .above {
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: $background-color;
+        color: white;
+        .above1 {
+            display: flex;
+            align-items: center;
+            .logoTDTU {
+                height: 80px;
+                width: 80px;
+            }
+            .content {
+                margin-left: 10px;
+            }
+        }
+
+        .above2 {
+            display: flex;
+            justify-content: space-between;
+            .above2-1 {
+                flex: 1;
+                .above2-1-1 {
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: center;
+                }
+                .above2-1-2 {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+                    margin-bottom: 10px;
+                    .icon {
+                        fill: white;
+                        stroke: white;
+                        height: 20px;
+                        width: 20px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .below {
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        height: 80px;
+    }
+}
